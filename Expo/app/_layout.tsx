@@ -1,6 +1,11 @@
 import "@/styles/global.css";
 import { Stack } from "expo-router";
+import { AppProviders } from "./provinder";
 
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <AppProviders>
+      <Stack />
+    </AppProviders>
+  );
 }
