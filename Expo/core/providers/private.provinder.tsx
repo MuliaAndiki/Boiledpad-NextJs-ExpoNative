@@ -1,5 +1,6 @@
 import { router } from "expo-router";
 import { useAppSelector } from "@/hooks/toolkit/redux";
+import { useEffect } from "react";
 
 export default function PrivateProviders({
   children,
@@ -11,9 +12,12 @@ export default function PrivateProviders({
   );
   const isAuth = currentUser;
 
-  if (!isAuth) {
-    router.push("/(auth)/login/page");
-  }
+  // useEffect(() => {
+  //   if (!isAuth) {
+  //     // Redirect to login if not authenticated
+  //     router.replace("/(auth)/login" as any);
+  //   }
+  // }, [isAuth]);
 
   return <>{children}</>;
 }

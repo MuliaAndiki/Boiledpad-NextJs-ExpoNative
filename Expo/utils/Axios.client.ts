@@ -1,14 +1,25 @@
-import axios from "axios";
+import axios, { AxiosError } from "axios";
 
 import Constants from "expo-constants";
-const BASE_URL = Constants.expoConfig?.extra?.BACKEND_URL;
+import { store } from "@/stores/store";
 
-if (!BASE_URL) {
-  console.error("BACKEND_URL is not set in app.json extra field!");
-}
+const BASE_URL = Constants.expoConfig?.extra?.BACKEND_URL;
 
 const AxiosClient = axios.create({
   baseURL: BASE_URL,
 });
+
+AxiosClient.interceptors.request.use(
+  (config: any): any => {
+    const token = store.getState().auth.currentUser?.user.token;
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  },
+  (error: AxiosError): Promise<AxiosError> => {
+    return Promise.reject(error);
+  }
+);
 
 export default AxiosClient;

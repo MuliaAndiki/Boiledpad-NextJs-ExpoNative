@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Light theme default */
+  --background: #f5eaff;
+  --foreground: #911dec;
+  --card: #ffffff;
+  --card-foreground: #911dec;
+  --primary: #911dec;
+  --primary-foreground: #f5eaff;
+  --secondary: #f5eaff;
+  --secondary-foreground: #911dec;
+  --border: rgba(145, 29, 236, 0.2);
+  --input: rgba(145, 29, 236, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark theme default */
+    --background: #1a1a1a;
+    --foreground: #f5eaff;
+    --card: #2a2a2a;
+    --card-foreground: #f5eaff;
+    --primary: #911dec;
+    --primary-foreground: #f5eaff;
+    --secondary: #2a2a2a;
+    --secondary-foreground: #f5eaff;
+    --border: rgba(245, 234, 255, 0.1);
+    --input: rgba(245, 234, 255, 0.15);
+  }
+}
+
+/* Manual theme classes */
+.theme-light {
+  --background: #f5eaff;
+  --foreground: #911dec;
+  --card: #ffffff;
+  --card-foreground: #911dec;
+  --primary: #911dec;
+  --primary-foreground: #f5eaff;
+  --secondary: #f5eaff;
+  --secondary-foreground: #911dec;
+  --border: rgba(145, 29, 236, 0.2);
+  --input: rgba(145, 29, 236, 0.2);
+}
+
+.theme-dark {
+  --background: #1a1a1a;
+  --foreground: #f5eaff;
+  --card: #2a2a2a;
+  --card-foreground: #f5eaff;
+  --primary: #911dec;
+  --primary-foreground: #f5eaff;
+  --secondary: #2a2a2a;
+  --secondary-foreground: #f5eaff;
+  --border: rgba(245, 234, 255, 0.1);
+  --input: rgba(245, 234, 255, 0.15);
+}

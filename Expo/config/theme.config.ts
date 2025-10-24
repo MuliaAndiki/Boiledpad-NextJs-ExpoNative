@@ -1,9 +1,9 @@
-interface ColorConfig {
+export interface ColorConfig {
   background: string;
   foreground: string;
 }
 
-interface ThemeConfig {
+export interface ThemeConfig {
   light: {
     background: string;
     foreground: string;
