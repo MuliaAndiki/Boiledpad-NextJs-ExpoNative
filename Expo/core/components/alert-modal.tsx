@@ -1,15 +1,16 @@
+import { useEffect, useRef } from "react";
 import {
+  Animated,
+  Dimensions,
   Modal,
-  View,
+  StyleSheet,
   Text,
   TouchableOpacity,
-  StyleSheet,
-  Dimensions,
-  Animated,
+  View,
 } from "react-native";
+
 import { useTheme } from "@/core/providers/theme.provinder";
 import { ModalProps } from "@/types/ui";
-import { useEffect, useRef } from "react";
 
 const { width } = Dimensions.get("window");
 

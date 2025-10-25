@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
+
 import { AlertModal } from "@/core/components/alert-modal";
 import { ToastContainer } from "@/core/components/toast";
-
 import { AlertContexType, ModalProps, ToastProps } from "@/types/ui";
 
 const AlertContex = createContext<AlertContexType | undefined>(undefined);

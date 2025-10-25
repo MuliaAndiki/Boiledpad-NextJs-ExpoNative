@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { useTheme } from "@/core/providers/theme.provinder";
 import { Feather } from "@expo/vector-icons";
 import { View } from "react-native";
+
+import { Button } from "@/components/ui/button";
+import { useTheme } from "@/core/providers/theme.provinder";
 
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();

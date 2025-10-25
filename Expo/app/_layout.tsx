@@ -1,8 +1,11 @@
 import "@/styles/global.css";
+
 import { Stack } from "expo-router";
-import { AppProviders } from "./provinder";
+
 import ThemeToggle from "@/components/ui/toggleTheme";
 import { useTheme } from "@/core/providers/theme.provinder";
+
+import { AppProviders } from "./provinder";
 
 function RootLayoutContent() {
   const { colors, isDark } = useTheme();

@@ -1,15 +1,16 @@
-import { Drawer } from "expo-router/drawer";
-import { useTheme } from "@/core/providers/theme.provinder";
-import PrivateProviders from "@/core/providers/private.provinder";
-import { Home, User, LogOut } from "lucide-react-native";
-import { View, Text } from "react-native";
-import { router } from "expo-router";
-import ThemeToggle from "@/components/ui/toggleTheme";
 import {
   DrawerContentScrollView,
-  DrawerItemList,
   DrawerItem,
+  DrawerItemList,
 } from "@react-navigation/drawer";
+import { router } from "expo-router";
+import { Drawer } from "expo-router/drawer";
+import { Home, LogOut,User } from "lucide-react-native";
+import { Text,View } from "react-native";
+
+import ThemeToggle from "@/components/ui/toggleTheme";
+import PrivateProviders from "@/core/providers/private.provinder";
+import { useTheme } from "@/core/providers/theme.provinder";
 
 function CustomDrawerContent(props: any) {
   const { theme, colors, isDark } = useTheme();

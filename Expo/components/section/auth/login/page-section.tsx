@@ -1,11 +1,14 @@
+import { Link } from "expo-router";
+import { Eye, EyeOff,Lock, LogIn, Mail } from "lucide-react-native";
+import { useState } from "react";
 import {
-  View,
-  ScrollView,
   KeyboardAvoidingView,
   Platform,
+  ScrollView,
   TextInput,
+  View,
 } from "react-native";
-import { Text } from "@/components/ui/text";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -14,11 +17,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Text } from "@/components/ui/text";
 import { useTheme } from "@/core/providers/theme.provinder";
-import { LogIn, Mail, Lock, Eye, EyeOff } from "lucide-react-native";
-import { useState } from "react";
-
-import { Link } from "expo-router";
 import { useAlert } from "@/hooks/useAlert/costum-alert";
 
 export default function LoginPage() {

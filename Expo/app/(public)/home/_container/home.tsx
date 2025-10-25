@@ -1,5 +1,6 @@
-import HomeSection from "@/components/section/public/home/page-section";
 import { View } from "react-native";
+
+import HomeSection from "@/components/section/public/home/page-section";
 
 const HomeContainer = () => {
   return (

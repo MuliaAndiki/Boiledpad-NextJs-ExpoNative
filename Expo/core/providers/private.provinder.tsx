@@ -1,6 +1,7 @@
 import { router } from "expo-router";
-import { useAppSelector } from "@/hooks/toolkit/redux";
 import { useEffect } from "react";
+
+import { useAppSelector } from "@/hooks/toolkit/redux";
 
 export default function PrivateProviders({
   children,

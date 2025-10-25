@@ -1,16 +1,17 @@
-import { View, ScrollView } from "react-native";
-import { Text } from "@/components/ui/text";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { useTheme } from "@/core/providers/theme.provinder";
+import { Link } from "expo-router";
 import {
-  Home as HomeIcon,
   ArrowRight,
-  Zap,
+  Home as HomeIcon,
   Shield,
   Smartphone,
+  Zap,
 } from "lucide-react-native";
-import { Link } from "expo-router";
+import { ScrollView,View } from "react-native";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Text } from "@/components/ui/text";
+import { useTheme } from "@/core/providers/theme.provinder";
 
 export default function SectionHomePage() {
   const { colors, isDark } = useTheme();

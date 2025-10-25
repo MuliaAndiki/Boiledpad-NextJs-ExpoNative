@@ -1,4 +1,5 @@
-import { View, Text } from "react-native";
+import { Text,View } from "react-native";
+
 import { useThemeStyles } from "@/hooks/theme/useThemeStyle";
 
 export function HomeScreen() {

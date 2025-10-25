@@ -1,7 +1,8 @@
 import { Tabs } from "expo-router";
-import { useTheme } from "@/core/providers/theme.provinder";
-import { Home, User, Settings } from "lucide-react-native";
+import { Home, Settings,User } from "lucide-react-native";
 import { View } from "react-native";
+
+import { useTheme } from "@/core/providers/theme.provinder";
 
 export default function TabsLayout() {
   const { theme, colors, isDark } = useTheme();

@@ -1,14 +1,15 @@
-import { PopUpProps } from "@/types/ui";
 import {
+  Dimensions,
   Modal,
-  View,
-  TouchableOpacity,
+  Pressable,
   ScrollView,
   StyleSheet,
-  Dimensions,
-  Pressable,
+  TouchableOpacity,
+  View,
 } from "react-native";
+
 import { useTheme } from "@/core/providers/theme.provinder";
+import { PopUpProps } from "@/types/ui";
 
 const { width, height } = Dimensions.get("window");
 

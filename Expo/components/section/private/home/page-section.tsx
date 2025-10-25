@@ -1,4 +1,5 @@
-import { View, ScrollView } from "react-native";
+import { ScrollView,View } from "react-native";
+
 import { Text } from "@/components/ui/text";
 import { useTheme } from "@/core/providers/theme.provinder";
 
