@@ -1,0 +1,47 @@
+
+
+> mobile@1.0.0 dev /home/muliaandiki/boiler/Boiledpad-NextJs-ExpoNative/my-monorepo/apps/mobile
+> expo start
+
+[90mStarting project at /home/muliaandiki/boiler/Boiledpad-NextJs-ExpoNative/my-monorepo/apps/mobile[39m
+[90mReact Compiler enabled[39m
+[2mStarting Metro Bundler[22m
+[33mThe following packages should be updated for best compatibility with the installed [1mexpo[22m version:[39m
+[33m  [1mexpo[22m[36m@[39m[33m[31m54.0.20[39m[33m - expected version: [32m~54.0.28[39m[33m[39m
+[33m  [1mreact-native-svg[22m[36m@[39m[33m[31m15.15.1[39m[33m - expected version: [32m15.12.1[39m[33m[39m
+[33mYour project may not work correctly until you install the expected versions of the packages.[39m
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄▄ ▀▄▀█▄█ ▄▄▄▄▄ █
+█ █   █ ██▄▀ █ ▀▀▀█ █   █ █
+█ █▄▄▄█ ██▀▄ ▄▀▀█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ ▀▄█▄█▄▄▄▄▄▄▄█
+█ ▄▀ ▄█▄██▄▀█▄▀█▀▀█▄█▀█▀▀▄█
+█▀ ▀▀ ▄▄▀▄▄██▄▄▄▄ ▀███▄▀▀ █
+█ ███▀ ▄ ▀  █▀█▄ █ ▄▀▀█▀ ██
+█ ▄▄ ▄█▄▄▀▀▀█▀▄▀ ▄▀ ██▄▀  █
+█▄██▄█▄▄▄▀ ▀ ▄▄ █ ▄▄▄  ▄▀▄█
+█ ▄▄▄▄▄ ██▄▀▀▄  █ █▄█ ███ █
+█ █   █ █ ▀ ▄ ▀█▄ ▄  ▄ █▀▀█
+█ █▄▄▄█ █▀██ ▀█▄ ▄█▀▀▄█   █
+█▄▄▄▄▄▄▄█▄█▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on [4mexp://192.168.18.27:8081[24m
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on [4mhttp://localhost:8081[24m
+
+› Using [36mExpo Go[39m
+› Press [1ms[22m [2m│[22m switch to development build
+
+› Press [1ma[22m [2m│[22m open Android
+› Press [1mw[22m [2m│[22m open web
+
+› Press [1mj[22m [2m│[22m open debugger
+› Press [1mr[22m [2m│[22m reload app
+› Press [1mm[22m [2m│[22m toggle menu
+› [1mshift+m[22m [2m│[22m more tools
+› Press [1mo[22m [2m│[22m open project code in your editor
+
+› Press [1m?[22m [2m│[22m show all commands
+
+Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m

@@ -1,0 +1,15 @@
+
+
+> web@0.1.0 dev /home/muliaandiki/boiler/Boiledpad-NextJs-ExpoNative/my-monorepo/apps/web
+> next dev
+
+   [1m[38;2;173;127;168m▲ Next.js 15.2.4[39m[22m
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.18.27:3000
+   - Environments: .env
+
+ [32m[1m✓[22m[39m Starting...
+ [33m[1m⚠[22m[39m i18n configuration in next.config.ts is unsupported in App Router.
+Learn more about internationalization in App Router: https://nextjs.org/docs/app/building-your-application/routing/internationalization
+ [32m[1m✓[22m[39m Ready in 1507ms
+[?25h

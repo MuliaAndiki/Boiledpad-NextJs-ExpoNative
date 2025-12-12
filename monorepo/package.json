@@ -1,0 +1,14 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "packageManager": "pnpm@8.10.0",
+  "devDependencies": {
+    "turbo": "^2.6.3"
+  },
+  "scripts": {
+    "dev:web": "turbo run dev --filter=web",
+    "dev:mobile": "turbo run dev --filter=mobile",
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  }
+}
